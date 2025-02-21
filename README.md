@@ -32,10 +32,12 @@ The object detection model is trained using the **Car Object Detection** dataset
 ### Installation
 To run YOLOv8 object detection, install the required dependencies:
 ```bash
-pip install ultralytics opencv-python numpy matplotlib
+pip install ultralytics cv2 numpy matplotlib pandas PIL
 ```
 ### Setup
-Make sure to assign the path of the source image file to the **IMG_PATH** variable before running the code.
+- Make sure to assign the path of the source image file to the **IMG_PATH** variable before running the code (yolov8-object-detection-for-autonomous-vehicles.ipynb).
+- Run `eval.ipynb` to evaluate the model's performance on the car detection data. Upon evaluation, the **YOLOv8n (nano)** model is performing well with a precision of 97%.
+- Change the dataset image file paths according to you.
 
 ## Conclusion
 YOLOv8 provides a robust and efficient object detection solution for self-driving applications. Explore the repository for the full implementation and further improvements.
