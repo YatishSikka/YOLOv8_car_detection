@@ -34,7 +34,8 @@ To run YOLOv8 object detection, install the required dependencies:
 ```bash
 pip install ultralytics opencv-python numpy matplotlib
 ```
-
+### Setup
+Make sure to assign the path of the source image file to the **IMG_PATH** variable before running the code.
 
 ## Conclusion
 YOLOv8 provides a robust and efficient object detection solution for self-driving applications. Explore the repository for the full implementation and further improvements.
